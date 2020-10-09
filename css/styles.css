@@ -1,0 +1,71 @@
+:root{
+    --colorBase: #000000;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(180deg, #D291BC 0%, #FEC8D8 26%, #FFDFD3 100%);
+    background-attachment: fixed;
+
+}
+header{
+    text-align: center;
+    padding:1px;
+  }
+  header h1{
+    font-size: 3rem;
+    letter-spacing: 2px;
+    color: #957DAD;
+  }
+  main{
+ 
+    min-height: 500px;
+    margin: 10px 30px 5px 30px;
+    text-align: center;
+  }
+
+.visualizar{
+    width: 50%;
+    min-height: 300px;
+    border: 5px solid;
+    border-radius: 10px;
+    background: black;
+    max-width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 0px 0px 50px 20px var(--colorBase);
+}
+
+#codigoHEX{
+
+    font-size: 30px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+#color{
+    margin-top: 25px;
+    width: 80px;
+    height: 40px;
+}
+.colores {
+    text-shadow: 2px 2px 4px #000000;
+    animation: colores 5s infinite; 
+  }
+
+@keyframes colores{
+    0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
