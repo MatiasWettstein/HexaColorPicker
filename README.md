@@ -1,6 +1,3 @@
 # HexaColorPicker
-selector de colores en hexadecimal
+selector de colores en hexadecimal y RGB
 
-TODO
-<br>
-añadir conversor de hexadecimal a rgb
