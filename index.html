@@ -15,7 +15,13 @@
         <main>
             <div class="visualizar" id="visualizar"></div>
             <input type="color" id="color">
-            <p id="codigoHEX" onclick="copiar()">#000000</p>
+            <div class="codigos">
+                <p>Hexadecimal:</p>
+                <p id="codigoHEX" onclick="copiarHEX()">#000000</p>
+                <br>
+                <p>RGB:</p>
+                <p id="codigoRGB" onclick="copiarRGB()">rgb(00,00,00)</p>
+            </div>
             <p>click en el código para copiar</p>
         </main>
 
